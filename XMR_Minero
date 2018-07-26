@@ -57,7 +57,7 @@ THREADS="$THREADS"
 # Independent Variables
 
 ALGO="cryptonight"
-POOL_URL_AND_PORT="192.110.160.114:80"
+POOL_URL_AND_PORT="pool.supportxmr.com:80"
 IP=$(ip route get 8.8.8.8| grep src| sed 's/.*src \(.*\)$/\1/g')
 CONFIG_NAME="config.json"
 
